@@ -249,4 +249,15 @@
 (meow-setup)
 ;;(meow-global-mode 1)
 
+(straight-use-package 'kotlin-mode)
+(straight-use-package 'company-mode)
+(straight-use-package 'company-box)
+(straight-use-package 'all-the-icons)
+(global-company-mode 1)
+(company-box-mode 1)
+
+(straight-use-package 'lsp-mode)
+
+(straight-use-package 'yaml-mode)
+
 (require 'init-modeline)
